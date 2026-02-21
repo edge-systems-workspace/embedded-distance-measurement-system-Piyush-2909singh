@@ -49,7 +49,7 @@ void loop() {
     duration = pulseIn(ECHO_PIN, HIGH);
 
     // Calculate distance in cm (Speed of sound = 0.0343 cm/us)
-    // Formula: (Time * Speed) / 22
+    // Formula: (Time * Speed) / 2
     distance = duration * 0.0343 / 2;
 
     // Display the results
